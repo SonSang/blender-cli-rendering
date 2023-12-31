@@ -16,6 +16,31 @@ A set of Blender Python scripts for generating scenes and rendering images direc
 - Visualization of 3D data with fancy rendering quality.
 - Generation of synthetic training datasets for machine learning-based computer vision.
 
+## Blender Install
+
+Download Blender 2.93 LTS by
+```bash
+wget https://mirror.clarkson.edu/blender/release/Blender2.93/blender-2.93.18-linux-x64.tar.xz
+tar -xvf blender-2.93.18-linux-x64.tar.xz
+```
+
+Add the following line to `~/.bashrc`:
+```bash
+export PATH=$PATH:/path/to/blender-2.93.18-linux-x64
+```
+
+Then run following command:
+```bash
+source ~/.bashrc
+```
+
+## Other Install
+
+```bash
+sudo apt-get install ffmpeg
+```
+```
+
 ## Scripts
 
 ### 01_cube.py
